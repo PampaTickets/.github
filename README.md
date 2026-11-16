@@ -1,26 +1,12 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="brand/logo-full-light-text.png">
-  <img alt="PampaTickets" src="brand/logo-full-dark-text.png" width="320">
-</picture>
+# PampaTickets/.github
 
-Plataforma de ingressos e fotos de eventos. Venda, check-in por QR Code e fotos do mesmo evento, no mesmo lugar.
+Arquivos padrão da organização. O texto do perfil em [github.com/PampaTickets](https://github.com/PampaTickets) está em [`profile/README.md`](profile/README.md).
 
-Este repositório é o perfil da organização e a origem dos arquivos padrão (contribuição, segurança, issues e pull requests). O código de cada frente fica no repositório correspondente.
-
-## Repositórios
-
-| Repositório | O que é |
+| Arquivo | Uso |
 |---|---|
-| [PampaTickets-Docs](https://github.com/PampaTickets/PampaTickets-Docs) | Decisões, arquitetura e contratos de API. Fonte da verdade. |
-| [PampaTickets-Backend](https://github.com/PampaTickets/PampaTickets-Backend) | API, monolito e serviços que saem dele. |
-| [PampaTickets-Frontend](https://github.com/PampaTickets/PampaTickets-Frontend) | Interface web. |
-| [PampaTickets-Mobile](https://github.com/PampaTickets/PampaTickets-Mobile) | App Android. |
-| [PampaTickets-MVP](https://github.com/PampaTickets/PampaTickets-MVP) | MVP acadêmico. Ponto de partida do produto atual. |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Como contribuir |
+| [SECURITY.md](SECURITY.md) | Como reportar uma falha de segurança |
+| [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE) | Formulários de issue |
+| [.github/PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md) | Modelo de pull request |
 
-## Contribuir
-
-O jeito de abrir issue, pull request e commit está em [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Falha de autenticação, pagamento, ingresso ou vazamento de dados entra por [SECURITY.md](SECURITY.md). Issue pública não serve para isso.
-
-Site: [pampatickets.com.br](https://pampatickets.com.br)
+Um repositório da organização que não tiver o próprio arquivo herda o daqui. Este repositório precisa permanecer público.
