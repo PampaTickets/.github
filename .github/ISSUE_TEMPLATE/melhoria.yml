@@ -1,0 +1,43 @@
+name: Melhoria
+description: Um problema de quem organiza ou de quem compra o ingresso, e uma ideia do que mudar.
+title: "feat: "
+body:
+  - type: dropdown
+    id: frente
+    attributes:
+      label: Frente
+      options:
+        - Backend
+        - Frontend web
+        - App Android
+        - Documentação
+        - Mais de uma
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual problema isso resolve
+      description: Quem sente o problema e em que momento do evento.
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: O que você propõe
+    validations:
+      required: true
+  - type: textarea
+    id: fora
+    attributes:
+      label: O que fica de fora
+      description: Limite da mudança, se já souber.
+    validations:
+      required: false
+  - type: checkboxes
+    id: docs
+    attributes:
+      label: Documentação
+      options:
+        - label: Esta mudança pede decisão ou contrato novo em PampaTickets-Docs antes do código.
+          required: false

@@ -1,0 +1,53 @@
+name: Bug
+description: Algo que deveria funcionar e falhou.
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Se a falha expõe conta, pagamento, ingresso ou dado pessoal, pare aqui e siga o [SECURITY.md](https://github.com/PampaTickets/.github/blob/main/SECURITY.md).
+  - type: dropdown
+    id: frente
+    attributes:
+      label: Frente
+      options:
+        - Backend
+        - Frontend web
+        - App Android
+        - Documentação
+        - Gateway ou contrato de API
+        - Outra
+    validations:
+      required: true
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: O que aconteceu
+      description: O resultado que você viu.
+    validations:
+      required: true
+  - type: textarea
+    id: esperava
+    attributes:
+      label: O que você esperava
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como repetir
+      description: Perfil (participante ou organizador), tela ou rota, e a sequência.
+      placeholder: |
+        1. Entro como organizador
+        2. Abro o evento
+        3. …
+    validations:
+      required: true
+  - type: input
+    id: ambiente
+    attributes:
+      label: Ambiente
+      description: Local, staging ou produção, e a versão ou o commit se souber.
+      placeholder: staging, navegador ou aparelho
+    validations:
+      required: false

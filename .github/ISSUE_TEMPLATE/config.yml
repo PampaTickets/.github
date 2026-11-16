@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentação do produto
+    url: https://github.com/PampaTickets/PampaTickets-Docs
+    about: Decisões, arquitetura e contratos de API. Consulte antes de propor uma mudança de comportamento.
+  - name: Falha de segurança
+    url: https://github.com/PampaTickets/.github/blob/main/SECURITY.md
+    about: Autenticação, pagamento, ingresso ou vazamento de dados. Não abra issue pública.
